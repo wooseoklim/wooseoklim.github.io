@@ -1,62 +1,45 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="en-us">
-
+<html lang="kor">
 <head>
 <meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
-
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
-
-</style>
+<title>Hi</title>
+<link rel="stylesheet" type="text/css" href="lionstyle.css">
 </head>
 
 <body>
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
-
-myButton.addEventListener('click', doSomething, false)
-
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
+	<div class="container">
+	<nav>
+		<ul>
+			<h1>안녕</h1>
+			<li><a href="#third">Blog</a></li>
+			<li><a href="#second">Work</a></li>
+			<li><a href="#first">About</a></li>
+			<li><a href="#">Home</a></li>
+		</ul>
+	</nav>
+	
+	
+	<header id="first">
+		
+		<h2>멋진 오류</h2>
+		<p>아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;;
+		 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;;
+		  아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;;
+		   아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;;
+		    아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;; 아 오류난다;;</p>
+	</header>
+	
+	<section id="second">
+		<article>오류2</article>
+		<article>오류2</article>
+		<article>오류2</article>
+	</section>
+	
+	<footer id="third">
+		<p>Copyright &copy; WooSeok, 2017</p>
+	</footer>
+	
+	</div>
 
 </body>
 </html>
