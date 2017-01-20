@@ -30,38 +30,44 @@ header {
 	text-align: center;
 	font-size: 60px;
 	margin: auto auto;
-	background-image: url('Yellowknife.jpg')
-}
-
-header h2{
-	text-align: center;
-	font-size: 60px;
+	background-image: url('Yellowknife.jpg');
+	padding: 20px;
 	
 }
+
 
 header p{
 	text-align: center;
 	font-size: 18px;
-	margin: auto auto;
 }
 
 
 section {
     
     width: 100%;
-    padding: 30px;
-    text-align: center;
+    padding-bottom: 400px;
+    float: left;
 
 }
-section article{
-    display: inline;
-    padding: 30px;
+
+section article img {
+    width: 310px;
+    height: 310px;
+   
+}
+section article p {
     text-align: center;
-    margin: 20px 20px;
+    font-size: 15px;
+}
+section #art{
+    width: 29%;
+    padding: 20px;
+    float: left;
+    
 }
 footer {
     width: 100%;
-    padding: 30px;
+
     text-align: center;
     font-size: 15px;
 }
